@@ -1,0 +1,46 @@
+{
+  "name": "instanced-animation",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/esm/index.d.ts",
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "run-p build:*",
+    "build:common": "tsc",
+    "build:esm": "tsc -p tsconfig.esm.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TsutomuNakamura/rpncc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@types/node": "^18.7.16",
+    "@types/three": "^0.144.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.7.1",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.3"
+  },
+  "prettier": {
+    "bracketSpacing": false,
+    "printWidth": 80,
+    "semi": true,
+    "singleQuote": true,
+    "arrowParens": "avoid",
+    "trailingComma": "none",
+    "tabWidth": 2
+  },
+  "dependencies": {
+    "three": "^0.127.0"
+  }
+}
