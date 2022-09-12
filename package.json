@@ -1,6 +1,6 @@
 {
   "name": "instanced-animation",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/esm/index.js",
