@@ -1,6 +1,6 @@
 {
   "name": "instanced-animation",
-  "version": "0.1.0",
+  "version": "0.1.10",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/esm/index.js",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TsutomuNakamura/rpncc.git"
+    "url": "git+https://github.com/hamaike-biz/instanced-animation.git"
   },
   "keywords": [],
   "author": "",
