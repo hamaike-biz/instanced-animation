@@ -52,7 +52,7 @@ class InstancedAnimation {
     const originalMesh = gltf.scene.children[0];
 
     if (!(originalMesh instanceof THREE.Mesh))
-      throw Error('originalMesh が Meth型ではありません');
+      throw Error('Mesh could not be retrieved.');
 
     this.animOrder = this.createAnimOrder(originalMesh);
 
