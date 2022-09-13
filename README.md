@@ -20,7 +20,7 @@ instancedAnimation.playAnimation(targetIndex, animName);
 The following InstancedMesh features are still available.
 ```
 object3D.updateMatrix();
-instancedMesh.setMatrixAt(instanceIndex, baseObject3D.matrix);
+instancedMesh.setMatrixAt(instanceIndex, object3D.matrix);
 instancedMesh.instanceMatrix.needsUpdate = true;
 ```
 
